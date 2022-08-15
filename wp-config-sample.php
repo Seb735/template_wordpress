@@ -83,7 +83,30 @@ define( 'WP_DEBUG', false );
 
 /* Add any custom values between this line and the "stop editing" line. */
 
-
+//
+//// Je définis l'URL vers la page d'accueil de mon site
+//define(
+//    'WP_HOME',
+//    rtrim ( 'put_your_home_url_here', '/' )
+//);
+//
+//// Je définis l'URL vers le dossier source de WordPress
+//define(
+//    'WP_SITEURL',
+//    WP_HOME . '/wp'
+//);
+//
+//// Je définis l'URL vers le dossier wp-content
+//define(
+//    'WP_CONTENT_URL',
+//    WP_HOME . '/wp-content'
+//);
+//
+//// Je définis le path (chemin côté serveur) vers le dossier wp-content
+//define(
+//    'WP_CONTENT_DIR',
+//    __DIR__ . '/wp-content'
+//);
 
 /* That's all, stop editing! Happy publishing. */
 

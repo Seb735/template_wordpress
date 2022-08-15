@@ -1,8 +1,8 @@
 {
-    "name": "seb/site_flo",
+    "name": "seb/template_wordpress",
     "autoload": {
         "psr-4": {
-            "Seb\\SiteFlo\\": "wordpress/"
+            "Seb\\SiteFlo\\": "wp/"
         }
     },
     "authors": [
