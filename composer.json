@@ -1,0 +1,20 @@
+{
+    "name": "seb/site_flo",
+    "autoload": {
+        "psr-4": {
+            "Seb\\SiteFlo\\": "wordpress/"
+        }
+    },
+    "authors": [
+        {
+            "name": "seb",
+            "email": "duclutsebastien@yahoo.com"
+        }
+    ],
+    "require-dev": {
+        "johnpbloch/wordpress": "^6.0"
+    },
+    "extra": {
+        "wordpress-install-dir": "wp"
+    }
+}
